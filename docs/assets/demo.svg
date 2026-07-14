@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="720" height="430" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="360" y="27" fill="#8b949e" text-anchor="middle" font-size="12">mcpwatch — edit your MCP server, see the surface change</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> mcpwatch run -- python3 -m my_server</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">[mcpwatch]</tspan> watching . (poll 300ms) — server: python3 -m my_server</text>
+    <text x="24" y="114"><tspan fill="#79c0ff">[mcpwatch]</tspan> capability surface (2 tools, 2 resources, 1 prompt):</text>
+    <text x="24" y="148">demo-notes 1.0.0 — protocol 2025-03-26</text>
+    <text x="24" y="178" fill="#d2a8ff">tools (2)</text>
+    <text x="24" y="200">  add_note  Create a note with a title and body</text>
+    <text x="24" y="222">  echo      Echo a message back verbatim</text>
+    <text x="24" y="256" fill="#8b949e">…</text>
+    <text x="24" y="290"><tspan fill="#79c0ff">[mcpwatch]</tspan> 14:02:31 changed: server/tools.py</text>
+    <text x="24" y="312"><tspan fill="#79c0ff">[mcpwatch]</tspan> restart #1</text>
+    <text x="24" y="342" fill="#d2a8ff">tools 2 → 3</text>
+    <text x="24" y="364">  <tspan fill="#7ee787">+ slugify </tspan>  Turn a title into a URL slug</text>
+    <text x="24" y="386">  <tspan fill="#ffbd2e">~ add_note</tspan>  input schema changed (2725bb191bef → 0d2ffb730518)</text>
+    <text x="24" y="408">  <tspan fill="#f778ba">- legacy_sum</tspan></text>
+  </g>
+</svg>
